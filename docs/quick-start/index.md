@@ -49,7 +49,7 @@ Done with the video?  Skip ahead to [some more things to try](#some-next-things-
     * Some memories are automatically remembered from your chat history over longer conversations.  See "**[Chat Embeds](/docs/memory/chat-embeds)**"
     * see the "**[Memory](/docs/memory)**" subsection for more information
 1. Change the character's behavior with a "jailbreak"
-    * A "Jailbreak", aka Ultimate Jail Break or UJB, is a powerful instruction for the bot
+    * A "Jailbreak", aka User Jailbreak, Ultimate Jailbreak or UJB, is a powerful instruction for the bot
     * In the default prompt template (see "**[Prompt Templates](/docs/chat-settings/prompt-templates)**"), the UJB is one of the last pieces of context
     * The lower down in context something is, the more impact it has on the resposne
     * Try setting a "UJB" to make the character behave the opposite of their current behavior (see "**[System Prompt and Jail Breaks](/docs/chat-settings/system-prompt-and-jail-breaks)**")
