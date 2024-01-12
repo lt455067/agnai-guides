@@ -22,9 +22,11 @@ Missing Pages:
 * [ ] ./docs/running-locally/index.md
 * [ ] ./docs/source-code-intro/index.md
 * [ ] ./docs/tips-tricks-and-troubleshooting/index.md
-* [ ] ./docs/tips-tricks-and-troubleshooting/repetition.md
+* [x] ./docs/tips-tricks-and-troubleshooting/repetition.md
 * [ ] ./docs/tips-tricks-and-troubleshooting/random-and-roll.md
+* [ ] ./docs/tips-tricks-and-troubleshooting/insert-depth.md
 * [ ] ./docs/tips-tricks-and-troubleshooting/longer-responses.md
+* [ ] ./docs/tips-tricks-and-troubleshooting/avoid-talking-as-user.md
 * [ ] ./docs/tips-tricks-and-troubleshooting/less-is-more.md
 * [ ] ./docs/multi-character/narrator-bots.md
 * [ ] ./docs/multi-character/index.md
