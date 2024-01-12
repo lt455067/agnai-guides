@@ -10,7 +10,7 @@ parent: "Memory"
 > Note: this is only a brief overview of how to use chat embeds and user embeds in Agnai.  For a more in-depth overview of how embeddings work with LLMs in general, check out https://pub.aimind.so/llm-embeddings-explained-simply-f7536d3d0e4b?gi=537c9fd225d8
 
 
-User embeds and chat embeds are a sort of "dynamic memory".  Similar to the memory books, User Embeds and Chat Embeds will use keywords and context from the chat history to include relevant pieces of information.
+User embeds and chat embeds are both a form of retrieval augmented generation (RAG) and form a sort of "dynamic memory".  Similar to the memory books, User Embeds and Chat Embeds will use keywords and context from the chat history to include relevant pieces of information.
 
 Like memories, embeds are a way to dynamically include relevant information without cluttering up your character card, system prompt, etc.
 
@@ -75,4 +75,6 @@ Note that this is an example prompt template and while this will work okay with 
 Chat Embeds come from your chat history rather than coming from a file that you control.  When you load a chat, the messages that are loaded into your browser are likewise added to the embeddings engine.  If you scroll up to load in past messages, these past messages will also be embedded as they load in. 
 
 As you continue the conversation, your new messages will trigger relevant chat embeddings to be added to your prompt.  Based on what you're talking about, previous messages that would otherwise not fit into your chat history context are loaded into your context at the {% raw %}{{chat_embed}}{% endraw %} placeholder.  Once your chat embed context limit is reached, chat embeds are no longer included.
+
+Chat embeds are loaded into an in-memory database locally.  The chat embeds most relevant to the conversation are retrieved from this database "magically" and inserted.  If the chat message is not loaded into the browser window (i.e it's not in the initial message load) you can either scroll up to load more chat messages or otherwise it won't be in your local embeddings database for that chat session.
 
