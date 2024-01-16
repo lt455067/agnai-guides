@@ -5,7 +5,6 @@ has_children: true
 ---
 # Library
 
-Thank you for your interest in the Library section!
+The Library is the place where you can set up your own [memory books](https://agnai.guide/docs/memory/memory-books), upload [embeddings](https://agnai.guide/docs/memory/embeddings), create your own, customized [prompt template type](https://agnai.guide/docs/chat-settings/prompt-templates) or, finally, your own scenarios with customized events [scenarios](https://agnai.guide/docs/library/scenarios).
 
-Unfortunately, we haven't yet provided detailed information about this topic, but we're working on it. If this topic is important to you, please let us know on our Discord channel, and we'll prioritize our work accordingly. We appreciate your interest in Agnai and your understanding as we continually improve our documentation.
-
+Note that you do not need to use the Library to have a good experience on Agnai, but it provides you with extra customizability should you wish for it.
