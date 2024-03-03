@@ -23,4 +23,4 @@ Interested in the code? Check out the **[GitHub repo](https://github.com/agnaist
 * **[Chat Settings](/docs/chat-settings)** -- Configure your chat and get your character talking just right
 * **[Memory](/docs/memory)** -- Learn more about how memory works in Agnaistic
 * **[LLMs](/docs/what-is-an-llm)** -- Learn about Language Models and choose your LLM
-* **[Tips, Tricks, and trouble-shooting](/docs/tips-tricks-and-troubleshooting)** -- Have a question that you're hoping we can answer?  Common issues related to length of replies, repetition, out-of-character behavior, and more are answered in this section.
+* **[Tips, Tricks, and troubleshooting](/docs/tips-tricks-and-troubleshooting)** -- Have a question that you're hoping we can answer?  Common issues related to length of replies, repetition, out-of-character behavior, and more are answered in this section.
