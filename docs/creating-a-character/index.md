@@ -33,10 +33,10 @@ An advantage of using greetings is also that they do not take up permanent token
 
 **Sample Conversation**: Much like "greeting", this section is to show the AI how to speak by example. An example conversation would look something like:
 
-*character name*: Hi!
+```*character name*: Hi!
 {{user}}: Hello!
 *character name*: How are you today?
-{{user}}:I'm good, thanks!
+{{user}}:I'm good, thanks!```
 
 You can also use {{char}} instead of the character's actual name, but generally it is not recommended to use it, since it always refer to the main character of a chat, so it will be messed up if it is used in the card of a secondary character. {{user}} is a placeholder which automatically gets replaced with your name in the chat.
 Sample conversations, like greetings, take a different approach than personality and the Advanced fields, and are there for mimicking purposes. It can be tricky to get it right, since they can affect so many things, for instance, response length, and they're typically rather long as well. It does, however, work well with language models, because it shows the model how you want it to reply. Again, though, it is optional. If you don't have a particular style which you'd like the AI to follow, or if you don't feel like making the effort, you can omit that section. You can also only give the replies of the character, not your own.
