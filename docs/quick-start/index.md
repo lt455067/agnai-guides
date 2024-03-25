@@ -14,7 +14,7 @@ Done with the video?  Skip ahead to [some more things to try](#some-next-things-
 
 1. Load up the Agnai interface
     * go to the website https://agnai.chat
-    * Optionally, login / create an account (if you want your chats to perisst across devices or you want to sign up for higher context / more powerful LLMs)
+    * Optionally, login / create an account (if you want your chats to persist across devices or you want to sign up for higher context / more powerful LLMs)
 1. Have your first chat with a Robot
     * Talk to the robot by clicking on the "Robot" chat right on the homepage
     * Use the "Send a message" box at the bottom of the screen to chat, just like with any messaging platform
