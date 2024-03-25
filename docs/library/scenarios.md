@@ -24,8 +24,12 @@ Firstly, you need to pick a **trigger**, which is how your event will start. The
 
 **Message Received** - the event will trigger once you send a message. This will result in double replies in a normal one-on-one character chat.
 
-Except for the Greeting trigger, you can also use **event flags**. They are essentially conditions which need to be met in order for the event to be available to activate.
+Except for the Greeting trigger, you can also use **event flags**. They are essentially conditions which need to be met in order for the event to be available to activate. 
+
+Note: Event flags are not words that are checked for by the AI. It's simply a condition for the events, like a programming variable, which is only relevant inside the events menu. There is currently no way to affect events with what is typed in the actual chat.
+
 There are two fields for flags, **Required States** and **States to Assign**. Both serve different purposes, Required States being to add conditions for the event to activate, and States to Assign being to add flags which this event adds/removes.
+
 You can add a flag by simply typing any kind of name in the States to Assign field (for instance, "event"), and pressing Enter to validate your selection (same functionality as with tags in the character card). You can also remove a flag by typing its name with a ! preceding it, (for instance "!event"). Once you have assigned a flag to an event, you can also use the state name in other events in the States to Assign field. Following our example, typing "event" here will mean that this event requires the "event" flag to be activated to trigger, and "!event" will mean that it requires the flag **not** to be activated. There is also a field to override event flags inside a chat, if you wish to change their status manually.
 Flags are powerful building blocks. With them, you can, for instance, design a progressive chain of events by having event1 require event2 require event3... and so on, which normally is harder to do, since the character card is constant, unless you edit it along the way.
 
