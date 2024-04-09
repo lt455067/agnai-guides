@@ -57,7 +57,7 @@ Done with the video?  Skip ahead to [some more things to try](#some-next-things-
 
 ## Some next things to try
 * Learn about [prompt templates](/docs/chat-settings/prompt-templates)
-* Learn about [user embeds](/docs/memory/user-embeds) or [chat embeds](/docs/memory/chat-embeds)
+* Learn about [user embeds or chat embeds](/docs/memory/embeddings)
 * Learn about [advanced settings for controlling the LLM](/docs/chat-settings/advanced-settings)
 * Learn more about [context limits](/docs/what-is-an-llm/context-and-context-limits)
 * Try [multi-bot conversations](/docs/tips-tricks-and-troubleshooting/multi-bot-conversations) or learn about [narrator bots](/docs/tips-tricks-and-troubleshooting/narrator-bots)
